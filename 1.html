@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title>Перелік справ</title>
+	<script>
+		function addItem() {
+			var newItem = document.createElement("div");
+			newItem.innerHTML = document.getElementByld("box").value;
+			newItem.onclick = removeItem;
+			document.getElementByld("list").appendChild(newItem);
+			saveList();
+		}
+	</script>
